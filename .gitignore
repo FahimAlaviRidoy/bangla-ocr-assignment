@@ -1,0 +1,18 @@
+# Ignore the dataset
+dataset/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore trained models
+models/
+*.keras
+*.h5
+
+# Ignore MLflow runs and cache
+mlruns/
+__pycache__/
+
+# Ignore Mac system files (just in case)
+.DS_Store
