@@ -1,0 +1,23 @@
+# Ignore local virtual environments
+venv/
+env/
+
+# Ignore the heavy dataset (the Docker app only needs the trained model, not the raw images)
+dataset/
+
+# Ignore MLflow tracking data and cache
+mlruns/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore version control files
+.git/
+.gitignore
+
+# Ignore assignment submission extras that the app doesn't need to run
+screenshots/
+README.md
+github_link.txt
+*.zip
